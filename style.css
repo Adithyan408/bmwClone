@@ -1,0 +1,519 @@
+@font-face {
+  font-family: 'bmwTypeNextWeb';
+  src: url('/fonts/bmwTypeNextWeb.woff2') format('woff2'),
+       url('/fonts/bmwTypeNextWeb.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+body{
+    margin: 0; /* To set Full size */
+    font-family: 'bmwTypeNextWeb', Arial, Helvetica, Roboto, sans-serif;
+}
+
+.background{
+  background-image: url(drawables/bmwCover.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+.container{
+    margin-left: 96px;
+    margin-right: 96px;
+    width: 1500px;
+    height: 665px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+/* LOGO */
+.logo{
+  height: 57px;
+  width: 57px;
+  padding-right: 20px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+/* HEADER SECTION */
+.header{
+  padding-top: 20px ;
+  display: flex;
+}
+/* LEFT SIDE HEADER */
+.left-head{
+  display: flex;
+  width: 1080px;
+}
+.header-list{
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  gap: 15px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  list-style: none;
+  font-size: 17px;
+  padding: 0 12px;
+  font-family: 'bmwTypeNextWeb', Arial, Helvetica, Roboto, sans-serif;
+}
+
+ /* RIGHT SIDE HEADER */
+.right-head{
+  padding: 20px;
+  margin-left: 96px;
+}
+.icon{
+  padding-left: 25px;
+  color: #fff;
+  height: 20px;
+  width: 20px;
+
+}
+.sec-1{
+  width: 550px;
+  height: 230px;
+  background:none;
+ position: absolute;
+ top: 50%;
+ color: #fff;
+
+}
+.sec-1 h1{
+  font-size: 28px;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+.sec-1 h2{
+  font-size: 15px;
+  width: 300px;
+  height: 20px;
+  letter-spacing: 10px;
+  font-weight: 100;
+  margin-top: -15px;
+}
+.sev{ /*DISCOVER BUTTON*/
+  width: 200px;
+  height: 50px;
+  background-color: #0559cd;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-style: 15px;
+}
+.sev:hover{
+  background-color: #074aa9;
+}
+/* FIND BMW SECTION */
+.find-bm{
+ margin-left: 96px;
+ margin-right: 96px;
+ margin-top: 40px;
+ margin-bottom: 40px;
+ justify-content: space-between;
+  height: 300px;
+}
+.find-bm h2{
+  text-align: center;
+  letter-spacing: 0.3rem;
+  font-size: 35px;
+      font-family: 'bmwTypeNextWeb', Arial, Helvetica, Roboto, sans-serif;
+      font-weight: 100;
+      color: #262626;
+}
+/** FIND BMW MAIN DIV **/
+.bmw{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 206px;
+}
+/** COMMON INNER DIV  **/
+.bm{
+  width: 350px;
+  height: 250px;  
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center; 
+  align-content: space-evenly;
+  
+}
+
+/** COMMON P FOR INNER DIVS **/
+.bm p{
+  color: black;
+  font-size: 23px;
+  text-align: center;
+  margin: 0px;
+  width: 230px;
+}
+/** FIND CAR INNER DIV **/
+.find-img{
+   width: 150px;
+  height: 120px;
+  margin-top: -30px;
+}
+.find-btn{
+  width: 130px;
+  height: 50px;
+  align-content: center;
+  font-size: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+/**  TEST CAR INNER DIV **/
+.test-btn{
+  width: 190px;
+  height: 50px;
+  align-content: center;
+  font-size: 15px;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+.test-img{
+      width: 125px;
+    height: 102px;
+    margin-top: -10px;
+}
+/** BUILD CAR INNER DIV **/
+.build-img{
+ width: 150px;
+    height: 110px;
+    margin-top: -10px;
+}
+.build-btn{
+  width: 170px;
+  height: 50px;
+  align-content: center;
+  font-size: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.hov:hover{
+  border: 3px solid black;
+}
+/** X FIVE SERIES **/
+.x-five{
+  background-image: url(drawables/BMW-X5.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.the-x5{
+  width: 550px;
+  height: 302px;
+  background:none;
+ position: relative;
+ top: 20%;
+ color: #f2f2f2;
+ margin-left: 100px;
+}
+.the-x5 h3{
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+.the-x5 h1{
+  font-size: 210px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  font-weight: 100;
+  color: #ffffff;
+}
+.the-x5 p{
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.x-btn{
+  width: 300px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 800;
+  color: #f2f2f2; 
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  background-repeat: no-repeat;
+  overflow: hidden;
+    outline: none;
+}
+.x-btn:hover{
+  border-color: #fff;
+  border: 3px solid;
+}
+
+/** THE X3 SERIES  **/
+.x-three{
+   background-image: url(drawables/X3.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-top: 40px;
+}
+.the-x3{
+    width: 550px;
+  height: 302px;
+  background:none;
+ position: relative;
+ top: 20%;
+ color: #f2f2f2;
+ margin-left: 100px;
+}
+.the-x3 h3{
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+.the-x3 h1{
+  font-size: 210px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  font-weight: 100;
+  color: #ffffff;
+}
+.the-x3 p{
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+/** THE SEVEN SERIES **/
+.seven{
+   background-image: url(drawables/img3.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-top: 40px;
+}
+.the-7{
+    width: 550px;
+  height: 302px;
+  background:none;
+ position: relative;
+ top: 70%;
+ color: #f2f2f2;
+ margin-left: 100px;
+}
+.the-7 p{
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+/** THE ELECTRIC BMW'S **/
+.electric{
+   background-image: url(drawables/IMG4.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-top: 40px;
+}
+.the-electric{
+    width: 650px;
+  height: 302px;
+  background:none;
+ position: relative;
+ top: 50%;
+ color: #fff;
+ margin-left: 100px;
+}
+.p1{
+   font-size: 28px;
+  color: #ffffff;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.p2{
+   font-size: 18px;
+  color: #ffffff;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  
+}
+.p3{
+   font-size: 18px;
+  color: #ffffff;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  margin-top: 0;
+}
+
+/** LAST IMAGE SECTION **/
+.last{
+  display: flex;
+  margin-top: 40px;
+  height: 430px;
+ justify-content: space-evenly;
+ margin-bottom: 100px;
+}
+.last-img{
+  background-image: url(drawables/Last.png);
+  background-size: cover;
+  background-position: center;
+  width: 750px;
+}
+.last-label{
+  width: 750px;
+  position: relative;
+  top: 25%;
+}
+.last-label h2{
+  font-size: 28px;
+  color: #262626;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin: 15px 0px;
+
+}
+.last-label p{
+  font-size: 18px;
+  color: #262626;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 6px 0px;
+}
+.last-btn{
+  width: 105px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #262626;
+  border: none;
+  background-color: transparent;
+  margin-top: 30px;
+}
+.last-btn:hover{
+  color: #1c69d4;
+}
+/* .last-label i:hover{
+  color: rgb(0, 157, 255);
+} */
+.hover{
+  
+  width: 500px;
+  height: 30px;
+}
+.hover:hover{
+  color: #1c69d4;
+}
+
+/* FOOTER SECTION */
+.footer{
+  height: 400px;
+}
+/** FOOT PANEL 1 **/
+.ft-panel1{
+  height: 100px;
+  width: 1300px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 75px;
+  padding-left: 75px;
+}
+/** SHORT FOOTER **/
+.foot-short1{
+  width: 150px;
+  color: #262626;
+     
+}
+.foot-short1 p{
+  font-size: 14px;
+ letter-spacing: 1px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+/** FOOT PANEL 1 **/
+.foot-short2{
+  width: 1200px;
+  margin-left: 0px;
+  align-content: center;
+}
+.foot-short2 p{
+  font-size: 18px;
+  color: #262626;
+  font-weight: 600;
+  padding-bottom: 5px;
+  padding-left: 10px;   
+  }
+  .foot-short2 p:hover{
+    color: #1c69d4;
+  }
+.ft-panel2{
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(246,246,246);
+  padding: 20px;
+}
+
+/* CONTACT SECTION */
+.contact{
+  width: 314px;
+  margin: 15px 0 48px;
+}
+.contact p{
+  color: rgb(77,77,77);
+  font-size: 12px;
+  padding-left: 50px;
+}
+.contact li{
+  font-size: 15px;
+  color: #262626;
+  padding: 10px;
+  list-style: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.contact li:hover{
+  color: #1c69d4;
+}
+/* SOCIAL MEDIA SECTION */
+.social{
+  height: 100px;
+  margin-left: 96px;
+  margin-right: 96px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.icons{
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+}
+/* COPYRIGHT SECTION */
+.copy-right{
+  height: 100px;
+  margin-left: 96px;
+  margin-right: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+.one{
+  margin-right: 50px;
+  font-size: 19px;
+  color: #262626;
+  letter-spacing: 1px;
+}
+.two{
+  display: flex;
+}
+.two ul{
+  display: flex;
+  font-weight: 600;
+  list-style: none;
+  font-size: 13px;
+  gap:10px;
+  color: #262626;
+}
+.two li{
+  padding-left: 10px;
+}
+.two li:hover{
+  color: #1c69d4;
+}
