@@ -8,7 +8,7 @@
 body{
     margin: 0; /* To set Full size */
     font-family: 'bmwTypeNextWeb', Arial, Helvetica, Roboto, sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .background{
