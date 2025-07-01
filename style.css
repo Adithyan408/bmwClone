@@ -8,6 +8,7 @@
 body{
     margin: 0; /* To set Full size */
     font-family: 'bmwTypeNextWeb', Arial, Helvetica, Roboto, sans-serif;
+    overflow: hidden;
 }
 
 .background{
@@ -17,16 +18,14 @@ body{
   background-repeat: no-repeat;
  
 }
-.container{
-    margin-left: 96px;
-    margin-right: 96px;
-    width: 1500px;
-    height: 665px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  
+.container {
+  margin-left: 96px;
+  margin-right: 96px;
+  max-width: 1500px;
+  width: calc(100% - 192px); /* account for margins */
+  overflow: hidden;
 }
+
 /* LOGO */
 .logo{
   height: 57px;
