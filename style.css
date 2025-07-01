@@ -63,6 +63,7 @@ body{
 .right-head{
   padding: 20px;
   margin-left: 96px;
+  display: flex;
 }
 .icon{
   padding-left: 25px;
